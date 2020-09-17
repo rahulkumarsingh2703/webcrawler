@@ -15,7 +15,7 @@ import sys
 
 requests.packages.urllib3.disable_warnings()
 
-# Function to check the given url is valid or not
+#Function to check the given url is valid or not
 def url_validation(url):
     validationStatus = validators.url(url)
     return validationStatus
